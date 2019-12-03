@@ -85,6 +85,8 @@ sizing:
     instances: ~
   cc_worker:
     instances: ~
+  credhub:
+    instances: ~
   database:
     instances: 1
   diego_api:
