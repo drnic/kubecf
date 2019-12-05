@@ -5,6 +5,8 @@ kind: BOSHDeployment
 metadata:
   name: {{ .Release.Name }}
   namespace: {{ .Release.Namespace | quote }}
+  annotations:
+    timestamp: {{ .Release.Time | quote }}
   labels:
     app.kubernetes.io/instance: {{ .Release.Name | quote }}
     app.kubernetes.io/managed-by: {{ .Release.Service | quote }}

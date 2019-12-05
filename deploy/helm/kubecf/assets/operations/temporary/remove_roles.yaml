@@ -3,5 +3,3 @@
 
 - type: remove
   path: /instance_groups/name=credhub
-- type: remove
-  path: /instance_groups/name=rotate-cc-database-key
